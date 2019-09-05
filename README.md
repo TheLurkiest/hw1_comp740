@@ -11,3 +11,10 @@ anaconda-navigator
 jupyter notebook list
 
 
+
+..........then we just navigate into the folder where we are storing this repo.
+
+Here is where the original hw1 file, and materials related to this course is located:
+
+https://github.com/karen-jin/COMP-ML
+
