@@ -101,7 +101,7 @@ threshold_90_precision = thresholds[np.argmax(precisions >= 0.90)]
 y_train_pred_90 = (y_scores >= threshold_90_precision)
 
 print('precision score calculated using 90 percent precision classifier: ' + str(precision_score(y_train_5, y_train_pred_90)))
-print('precision score calculated using 90 percent precision classifier: ' + str(recall_score(y_train_5, y_train_pred_90)))
+print('recall score calculated using 90 percent precision classifier: ' + str(recall_score(y_train_5, y_train_pred_90)))
 
 #...We have now finished construction of a 90% precision classifier.
 
